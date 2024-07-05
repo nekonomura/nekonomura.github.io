@@ -1,3 +1,6 @@
 .head {
-    height: 48;
+    height: 48px;
+}
+img.head{
+    resize: 40px;
 }
