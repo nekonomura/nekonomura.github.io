@@ -1,6 +1,21 @@
+html{
+    background-color: rgb(240, 251, 255);
+}
 .head {
+    padding: 5px;
+    margin-left: 50px;
     height: 48px;
 }
-img.head{
-    resize: 40px;
+.head img{
+    width: 50px;
+    float: left;
+}
+.head h1{
+    float: left;
+    margin: 0;
+    color: #c4ff0e;
+}
+div.line{
+    height: 3px;
+    background-color: rgb(227, 238, 241);
 }
