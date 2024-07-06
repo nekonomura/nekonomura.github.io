@@ -4,18 +4,39 @@ html{
 .head {
     padding: 5px;
     margin-left: 50px;
-    height: 48px;
+    height: 24px;
 }
 .head img{
-    width: 50px;
+    width: 25px;
     float: left;
 }
 .head h1{
     float: left;
     margin: 0;
     color: #c4ff0e;
+    font-size: 18.5px;
 }
 div.line{
     height: 3px;
     background-color: rgb(227, 238, 241);
+    clear: both;
+}
+div.sidebar{
+    width: 200px;
+    height: 800px;
+    float: left;
+}
+div.main{
+    float:left;
+    width: 70%;
+}
+div.display{
+    height: 800px;
+}
+div.end{
+    clear: both;
+}
+div.end img{
+    margin: 20px;
+    width:35px;
 }
