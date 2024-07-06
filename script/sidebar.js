@@ -13,7 +13,7 @@ function side_button_click ()
     Main.style.marginLeft = "22%";
   }
 }
-//from https://qiita.com/sei84/items/75cb7fd5cdfa84dee7e9
+//from https://qiita.com/sei84/items/75cb7fd5cdfa84dee7e9 && https://www.yoheim.net/blog.php?q=20120430
 //ページ全体の高さ取得
 const docHeight = document.body.clientHeight;
-SideBar.style.height = (SideBar.style.display-27) + "px";
+SideBar.style.height = (docHeight - 27) + "px";
