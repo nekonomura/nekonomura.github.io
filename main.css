@@ -1,17 +1,28 @@
 html{
     background-color: rgb(240, 251, 255);
 }
+.heads{
+    width: 100%;
+    position: fixed;
+}
 .head {
     padding: 5px;
-    margin-left: 50px;
+    height: 27px;
+    display: flex;
+    background-color: rgb(240, 251, 255);
+}
+.side_button{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    width: 24px;
     height: 24px;
+    background-color: rgb(240, 251, 255);
 }
 .head img{
     width: 25px;
-    float: left;
 }
 .head h1{
-    float: left;
     margin: 0;
     color: #c4ff0e;
     font-size: 18.5px;
@@ -20,23 +31,30 @@ div.line{
     height: 3px;
     background-color: rgb(227, 238, 241);
     clear: both;
+    width: 100%;
 }
 div.sidebar{
-    width: 200px;
-    height: 800px;
-    float: left;
+    height:10px;
+    width: 20%;
+    background-color: aquamarine;
+    display:block
 }
 div.main{
-    float:left;
-    width: 70%;
+    padding-top: 37px;
+    width: 100%;
 }
 div.display{
     height: 800px;
 }
 div.end{
+    margin-top: 20px;
     clear: both;
 }
 div.end img{
+    margin: 20px;
+    width:35px;
+}
+div.end a{
     margin: 20px;
     width:35px;
 }
